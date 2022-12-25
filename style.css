@@ -1,5 +1,11 @@
+body {
+  background: url('./imagens/minion.png');
+  background-position: 10% 10%;
+}
+
 #page-title {
   text-align: center;
+  color: green;
 }
 
 #tools {
@@ -10,7 +16,7 @@
 
 #tools button {
   font-weight: 600;
-  border-radius: 5px;
+  border-radius: 20px;
   color: white;
 }
 
@@ -40,8 +46,16 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  width: 600px;
+  width: 620px;
   height: 500px;
+}
+
+#text-input {
+  text-align: center;
+  position: center;
+  background: white;
+  box-shadow: black;
+  border-radius: 20px;
 }
 
 #meme-text {
@@ -65,6 +79,7 @@
 }
 
 #miniatures {
+  color: green;
   margin-top: 15px;
   text-align: center;
   width: fit-content;
@@ -73,6 +88,7 @@
 }
 
 .miniature {
+  border: 1px solid black;
   display: inline-block;
   margin: 5px;
   width: 100px;

@@ -23,19 +23,19 @@ function changeBorder(style) {
   memeImageContainer.style.border = newBorder;
 }
 
-textInput.addEventListener('input', function () {
+textInput.addEventListener('input', () => {
   memeText.innerText = textInput.value;
 });
 memeInsert.addEventListener('change', insertMemeImage);
-fireButton.addEventListener('click', function() {
+fireButton.addEventListener('click', () => {
   const fireStyle = '3px dashed rgb(255, 0, 0)';
   changeBorder(fireStyle);
 });
-waterButton.addEventListener('click', function () {
+waterButton.addEventListener('click', () => {
   const waterStyle = '5px double rgb(0, 0, 255)';
   changeBorder(waterStyle);
 });
-earthButton.addEventListener('click', function() {
+earthButton.addEventListener('click', () => {
   const earthStyle = '6px groove rgb(0, 128, 0)';
   changeBorder(earthStyle);
 });
